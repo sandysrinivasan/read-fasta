@@ -1,8 +1,9 @@
 import sys
 
+
 def read_fasta(filename):
     """
-    Read sequence data from FASTA file. Filename as command line arg
+    Read sequence data from FASTA file. Filename as command line arg!
     """
     seq =''
     f = open(filename)
