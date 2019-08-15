@@ -1,3 +1,5 @@
+import sys
+
 def read_fasta(filename):
     """
     Read sequence data from FASTA file in filename
@@ -10,4 +12,6 @@ def read_fasta(filename):
             seq = seq + line  # concatenates line to seq
     f.close()
     return seq
-print(read_fasta('ae.fa'))
+
+print(read_fasta(sys.argv[1]))
+
